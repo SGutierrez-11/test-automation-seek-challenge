@@ -26,6 +26,15 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Install compatible Chrome version
+        run: |
+          sudo apt-get remove -y google-chrome-stable
+          
+          wget -q https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_120.0.6099.109-1_amd64.deb
+          sudo dpkg -i google-chrome-stable_120.0.6099.109-1_amd64.deb || sudo apt-get install -f -y
+          
+          google-chrome --version
+
       - name: Run Tests (Selenium via Maven)
         run: xvfb-run mvn clean test
         continue-on-error: true
