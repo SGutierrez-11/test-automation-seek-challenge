@@ -1,3 +1,4 @@
+# --- Java & Maven ---
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -7,11 +8,29 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+# --- IntelliJ IDEA (Strict) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# --- Eclipse (m2e) ---
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings/
+.factorypath
+
+# --- Test Data & Automation Outputs ---
+target/user-data.properties
+test-output/
+allure-results/
+allure-report/
+*.log
+.allure/
+
+# --- OS specific files ---
+.DS_Store
+Thumbs.db
