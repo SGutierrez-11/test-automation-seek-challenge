@@ -12,13 +12,14 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <aspectj.version>1.9.19</aspectj.version>
+        <selenium.version>4.29.0</selenium.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.28.0</version>
+            <version>${selenium.version}</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
