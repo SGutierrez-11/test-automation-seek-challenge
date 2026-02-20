@@ -59,6 +59,22 @@ jobs:
           allure_history: allure-history
           keep_reports: 20
 
+      - name: Upload allure-results artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-results
+          path: target/allure-results
+          retention-days: 7
+
+      - name: Upload allure-report artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 7
+
       - name: Deploy Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         if: always()
@@ -66,3 +82,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+          force_orphan: true
