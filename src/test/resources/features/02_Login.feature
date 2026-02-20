@@ -24,3 +24,4 @@ Feature: User Authentication
       | valid_user@example.com      | WrongPass123!  |
       | non_existent_user@test.com  | ValidPass123!  |
       | fake_format@domain.xyz      | AnyPassword123 |
+      | bad_email_format            | ValidPass123!  |

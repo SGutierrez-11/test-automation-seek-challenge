@@ -78,4 +78,11 @@ public class DataGenerator {
     public static String getMobileNumber() {
         return faker.number().digits(10);
     }
+
+    /**
+     * Generate a unique email address using the Putsbox service for testing email functionality.
+     */
+    public static String getPutsboxEmail() {
+        return "qa_auto_" + System.currentTimeMillis() + "@putsbox.com";
+    }
 }

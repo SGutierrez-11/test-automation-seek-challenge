@@ -16,6 +16,7 @@ import org.testng.annotations.DataProvider;
                 "html:target/cucumber-reports.html",
                 "json:target/cucumber.json"
         },
+        tags = "@Facebook",
         monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
