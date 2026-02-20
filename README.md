@@ -86,7 +86,7 @@ El framework ha sido construido buscando la máxima mantenibilidad, encapsulaci�
  ┣ 📂 .github/workflows/      # ⚙️ Pipeline YAML de GitHub Actions
  ┣ 📜 pom.xml                 # Dependencias y configuración de Maven/Surefire
  ┗ 📜 README.md               # Este documento
-
+```
 ## 5. 🚀 Integración Continua (CI/CD) y Reportes
 
 El framework está completamente integrado con la nube. Se ha configurado un Pipeline en **GitHub Actions** (`.github/workflows/pipeline.yml`) que se dispara automáticamente con cada `push` a la rama `main` o mediante ejecución manual (`workflow_dispatch`).
