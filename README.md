@@ -133,9 +133,9 @@ Si deseas correr este framework en tu máquina local, sigue estos pasos:
 
 La excelencia técnica no solo reside en el código, sino en la trazabilidad del proceso de calidad. En el directorio `/docs` de este repositorio, encontrarás la documentación formal exigida para este reto, redactada bajo los más altos estándares de QA:
 
-* 📄 **[Plan Maestro de Pruebas (PDF)](./docs/PLAN MAESTRO DE PRUEBAS DE SOFTWARE (MTP).pdf):** Define la estrategia híbrida, el alcance, los entornos y el catálogo detallado de casos de prueba.
-* 📊 **[Matriz de Trazabilidad - RTM (PDF)](./docs/Matriz de Trazabilidad Red Social .pdf):** Dashboard de cobertura cruzando los 5 requerimientos de negocio con los 11 escenarios de prueba (Automáticos y Manuales), garantizando un 100% de Test Coverage.
-* 📋 **[Informe Final de Pruebas y Defectos (PDF)](./docs/INFORME FINAL DE EJECUCIÓN DE PRUEBAS Y ANÁLISIS DE CALIDAD.pdf):** Conclusiones funcionales, análisis teórico de rendimiento y seguridad, y el **Reporte de Defectos (Bugs)** con hallazgos arquitectónicos y recomendaciones Senior.
+* 📄 **[Plan Maestro de Pruebas (PDF)]:** Define la estrategia híbrida, el alcance, los entornos y el catálogo detallado de casos de prueba.
+* 📊 **[Matriz de Trazabilidad - RTM (PDF)]:** Dashboard de cobertura cruzando los 5 requerimientos de negocio con los 11 escenarios de prueba (Automáticos y Manuales), garantizando un 100% de Test Coverage.
+* 📋 **[Informe Final de Pruebas y Defectos (PDF)]:** Conclusiones funcionales, análisis teórico de rendimiento y seguridad, y el **Reporte de Defectos (Bugs)** con hallazgos arquitectónicos y recomendaciones Senior.
 
 ---
 
@@ -143,12 +143,12 @@ La excelencia técnica no solo reside en el código, sino en la trazabilidad del
 
 Dado el enfoque híbrido de la estrategia de pruebas, los flujos dinámicos nativos de la red social (Facebook) se ejecutaron mediante Pruebas Exploratorias Manuales. Todas las evidencias en video han sido centralizadas en la nube para su revisión:
 
-📁 **[Enlace a Carpeta Principal de Evidencias en Google Drive](URL_DE_TU_CARPETA_DRIVE_AQUI)**
+📁 **[Enlace a Carpeta Principal de Evidencias en Google Drive](https://drive.google.com/drive/folders/1mLy0xM7d8S-mX6Y0Ii6kdsfpNWlRxPUP?usp=sharing)**
 
 **Desglose de Evidencias por Módulo:**
-* 🎬 **Módulo de Comentarios (Engagement):** [Ver Video CRUD Comentarios]([URL_DEL_VIDEO_COMENTARIOS_AQUI](https://drive.google.com/file/d/1nmQwvFMMfINy8OUFe3ZkVQnr-2E1D_jq/view?usp=drive_link))
-* 🎬 **Módulo de Chat Privado (Messaging):** [Ver Video Chat y Defecto Anular Envío]([URL_DEL_VIDEO_CHAT_AQUI](https://drive.google.com/file/d/1TYbS8ehi5cr-33wTO4uNVavCUImzTANU/view?usp=drive_link))
-* 🎬 **Módulo de Autenticación (Login):** [Ver Video Happy Path y Edge Cases]([URL_DEL_VIDEO_LOGIN_AQUI](https://drive.google.com/file/d/1ttORp-eQiFLe80YzOztUAEygUVlrFS8g/view?usp=drive_link))
+* 🎬 **Módulo de Comentarios (Engagement):** [Ver Video CRUD Comentarios](https://drive.google.com/file/d/1nmQwvFMMfINy8OUFe3ZkVQnr-2E1D_jq/view?usp=drive_link)
+* 🎬 **Módulo de Chat Privado (Messaging):** [Ver Video Chat y Defecto Anular Envío](https://drive.google.com/file/d/1TYbS8ehi5cr-33wTO4uNVavCUImzTANU/view?usp=drive_link)
+* 🎬 **Módulo de Autenticación (Login):** [Ver Video Happy Path y Edge Cases](https://drive.google.com/file/d/1ttORp-eQiFLe80YzOztUAEygUVlrFS8g/view?usp=drive_link)
 
 ---
 *Desarrollado con ☕ y mentalidad de calidad continua por **Santiago Gutierrez** - QA Automation Engineer.*
