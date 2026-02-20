@@ -114,7 +114,7 @@ Si deseas correr este framework en tu máquina local, sigue estos pasos:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/](https://github.com/)SGutierrez-11/test-automation-seek-challenge.git
+    git clone https://github.com/SGutierrez-11/test-automation-seek-challenge.git
     cd test-automation-seek-challenge
     ```
 2.  **Ejecutar todas las pruebas:**
