@@ -1,0 +1,22 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a new user
+  I want to register an account with dynamic data
+  So that I can access the platform functionalities without data collision","9124","Successful user registration with random valid data","","Fri Feb 20 06:18:51 UTC 2026","passed","Fri Feb 20 06:19:00 UTC 2026","","User Registration","Successful user registration with random valid data",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","4751","Login attempt with invalid credentials","","Fri Feb 20 06:19:12 UTC 2026","passed","Fri Feb 20 06:19:17 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
+"  As a user
+  I want to leave a review on a product
+  So that I can share my opinion with others","3767","User leaves a successful review on the first product","","Fri Feb 20 06:19:31 UTC 2026","passed","Fri Feb 20 06:19:35 UTC 2026","","Product Review (Comment Simulation)","User leaves a successful review on the first product",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","13917","Login attempt with invalid credentials","","Fri Feb 20 06:19:17 UTC 2026","failed","Fri Feb 20 06:19:31 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","3235","Login successful with previously registered user","","Fri Feb 20 06:19:00 UTC 2026","passed","Fri Feb 20 06:19:03 UTC 2026","","User Authentication","Login successful with previously registered user",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","4624","Login attempt with invalid credentials","","Fri Feb 20 06:19:03 UTC 2026","passed","Fri Feb 20 06:19:08 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","4445","Login attempt with invalid credentials","","Fri Feb 20 06:19:08 UTC 2026","passed","Fri Feb 20 06:19:12 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
