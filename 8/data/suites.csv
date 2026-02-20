@@ -1,0 +1,22 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","3027","Login successful with previously registered user","","Fri Feb 20 05:19:51 UTC 2026","passed","Fri Feb 20 05:19:54 UTC 2026","","User Authentication","Login successful with previously registered user",""
+"  As a user
+  I want to leave a review on a product
+  So that I can share my opinion with others","2564","User leaves a successful review on the first product","","Fri Feb 20 05:20:22 UTC 2026","passed","Fri Feb 20 05:20:25 UTC 2026","","Product Review (Comment Simulation)","User leaves a successful review on the first product",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","14111","Login attempt with invalid credentials","","Fri Feb 20 05:20:08 UTC 2026","failed","Fri Feb 20 05:20:22 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","4124","Login attempt with invalid credentials","","Fri Feb 20 05:19:59 UTC 2026","passed","Fri Feb 20 05:20:03 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","4895","Login attempt with invalid credentials","","Fri Feb 20 05:20:03 UTC 2026","passed","Fri Feb 20 05:20:08 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
+"  As a registered user
+  I want to login with my credentials
+  So that I can access my account details securely","4383","Login attempt with invalid credentials","","Fri Feb 20 05:19:54 UTC 2026","passed","Fri Feb 20 05:19:59 UTC 2026","","User Authentication","Login attempt with invalid credentials",""
+"  As a new user
+  I want to register an account with dynamic data
+  So that I can access the platform functionalities without data collision","30102","Successful user registration with random valid data","","Fri Feb 20 05:19:21 UTC 2026","passed","Fri Feb 20 05:19:51 UTC 2026","","User Registration","Successful user registration with random valid data",""

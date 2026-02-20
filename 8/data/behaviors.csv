@@ -1,0 +1,5 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","User Authentication","1","0","Login successful with previously registered user","0"
+"0","","0","Product Review (Comment Simulation)","1","0","User leaves a successful review on the first product","0"
+"0","","1","User Authentication","3","0","Login attempt with invalid credentials","0"
+"0","","0","User Registration","1","0","Successful user registration with random valid data","0"
